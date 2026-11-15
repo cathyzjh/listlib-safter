@@ -1,0 +1,30 @@
+{
+    "name": {
+        "zh-cn": "高级数据类型（列表/字典）",
+        "en": "Advanced Types (List / Dict)"
+    },
+    "description": {
+        "zh-cn": "对标 Python 的 list 与 dict：动态列表增删改查、统计排序、切片拼接，以及键值字典。",
+        "en": "Python-like list and dict for Arduino C: dynamic add/remove, stats, sort, slice, join and key-value dict."
+    },
+    "author": "donny",
+    "email": "donnysunyuting@sina.com",
+    "license": "MIT",
+    "isBoard": false,
+    "id": "listlib",
+    "platform": [
+        "win",
+        "mac"
+    ],
+    "version": "1.1.0",
+    "asset": {
+        "arduinoC": {
+            "dir": "arduinoC/",
+            "version": "1.1.0",
+            "board": [
+                "esp32s3bit"
+            ],
+            "main": "main.ts"
+        }
+    }
+}
